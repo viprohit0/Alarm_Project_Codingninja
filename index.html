@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit's Alarm</title>
+    <link rel="stylesheet" href="alarm.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div id="outer-body">
+       
+        <img src="logo.png" alt="logo" id="logo" class="animate__animated " height="80px" width="80px">
+        <div id="real-time"></div>
+        <div id="set-alarm">
+            <select name="hour" id="h">
+                <option value="Hour" selected hidden disabled>Hour</option>
+            </select>
+            <select name="minutes" id="m">
+                <option value="Minutes" selected hidden disabled>Min</option>
+            </select>
+            
+            <select name="seconds" id="s">
+                <option value="Seconds" selected hidden disabled>Sec</option>
+            </select>
+            <select name="ap" id="ap">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+        </div>
+        <div id="control-btn">
+            <button id="setButton">Set  </button>
+            <button id="stopButton">Stop  </button>
+        </div>
+        <div >
+            <ul id="alarm-list">
+
+            </ul>
+        </div>
+    </div>
+    <script src="alarm.js"></script>
+</body>
+</html>
