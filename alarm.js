@@ -3,7 +3,7 @@
     var a=document.getElementById("real-time");
     var alarmList= document.getElementById("alarm-list");
     var selectOptions= document.querySelectorAll("select");
-    var myRingtone = new Audio("Ringtones/ve_haaniyaan.mp3");   //creating Audio object For Ringtone 
+    var myRingtone = new Audio("ve_haaniyaan.mp3");   //creating Audio object For Ringtone 
     var imgg= document.getElementById("logo");
 
     setInterval(()=>{      //Creating digital watch 
