@@ -10,7 +10,7 @@
         var today = new Date();
         var t=today.toLocaleTimeString();
         //console.log(today.toLocaleTimeString());
-        if((today.getHours()<10)){
+        if((0<today.getHours()&&today.getHours()<10)){
             t="0"+today.toLocaleTimeString(); 
             a.innerHTML=t;  
         }else if(12<today.getHours()&&today.getHours()<22){
